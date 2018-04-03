@@ -74,7 +74,7 @@ sw_api.getAllFilms()
 		///console.log(getFormatedFilms(films));
 		
 		// 1.2
-		//console.log(getFormatedFilms(films));
+		//console.log(getFormatedFilms(films));ZZZ
 
 	});
 

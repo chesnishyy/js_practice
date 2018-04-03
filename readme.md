@@ -1,4 +1,5 @@
 #JS Practice course plan
+
     1. Lesson 1. Introduction. The Array forEach method
         1.1 Introduction ( ~2 minutes)
             1.1.1 Intro speach
@@ -11,6 +12,7 @@
         1.5 forEach example with two callback arguments
         1.6 forEach advanced example with [thisArg] argument
         1.7 hw_1
+
     2. Lesson 2. The Array map method
         2.1 Do hw_1 task
         2.2 Get new array with forEach
@@ -19,6 +21,7 @@
         2.5 map example with two callback arguments
         2.6 map advanced example with [thisArg] argument
         2.7 hw_2
+
     3. Lesson 3. The Array filter method
 
     4. Lesson 4. The Array some/every methods
