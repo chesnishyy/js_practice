@@ -1,17 +1,26 @@
 #JS Practice course plan
 
     1. Lesson 1. Introduction. The Array forEach method
-        1.1 Introduction ( ~2 minutes)
+        1.1 Introduction to course( ~2 minutes)
             1.1.1 Intro speach
             1.1.2 What we will learn in this course
             1.1.3 Our goal, and for whom this course is
             1.1.4 Course structure, hw task at the end of every lesson
-        1.2 for loop example
-        1.3 About forEach - small theoretical part
-        1.4 forEach simple example
-        1.5 forEach example with two callback arguments
-        1.6 forEach advanced example with [thisArg] argument
-        1.7 hw_1
+        1.2 Introduction to lesson   
+        1.3 Create project, install modules
+            1.3.1 Create folder, npm init
+            1.3.2 install
+                - isomorphic-fetch
+                - babel-cli
+                - babel-preset-es2015
+            1.3.3  Promises. Fetch. SW API
+            1.3.4 Create function getFilms
+        1.4 for loop example
+        1.5 About forEach - small theoretical part
+        1.6 forEach simple example
+        1.7 forEach example with two callback arguments
+        1.8 forEach advanced example with [thisArg] argument
+        1.9 hw_1 - May be it will be advanced forEach example from 1.8
 
     2. Lesson 2. The Array map method
         2.1 Do hw_1 task
@@ -30,8 +39,4 @@
 
     6. Lesson 6. Chaining the Array map, filter and forEach
 
-    7. Lesson 7. Promises. Fetch. SW API
-
-    8. Lesson 8. Project init, add and install modules
-
-    9. 
+    7. Lesson 7. 
