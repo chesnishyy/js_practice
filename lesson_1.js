@@ -3,11 +3,10 @@ import * as sw_api from './sw_api';
 //1. LESSON 1
 
 	//1.1 for loop
-		function getFormatedFilms(films) {
-			let counter,
-				result = [];
+		function getFilms(films) {
+			let result = [];
 
-			for (counter = 0; counter < films.length; counter++) {
+			for (let i = 0; i < films.length; i++) {
 				result.push({
 					episode: films[counter].episode_id,
 					name: films[counter].title,
@@ -52,8 +51,17 @@ import * as sw_api from './sw_api';
 		}
 
 	// 1.4 forEach example with two callback arguments
-	function someFunction(films) {
-		
+	function getFomatedPeople(poeople) {
+		let result = [];
+
+		poeople.forEach((person, index) => {
+			result.push({
+				number: index + 1,
+				name: person.name
+			})
+		})
+
+		return result;
 	}
 
 	// 1.5 forEach advanced example with [thisArg]
@@ -70,8 +78,8 @@ sw_api.getAllFilms()
 		const films = response.results;
 
 
-		// 1.1
-		///console.log(getFormatedFilms(films));
+		// 1.1 for
+		//console.log(getFilms(films));
 		
 		// 1.2
 		//console.log(getFormatedFilms(films));ZZZ
@@ -79,7 +87,10 @@ sw_api.getAllFilms()
 	});
 
 
-
-
+sw_api.getAllPeople()
+	.then((response) => {
+		console.log(response);
+		
+	})
 	
-	
+
