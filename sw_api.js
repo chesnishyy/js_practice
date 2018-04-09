@@ -44,7 +44,6 @@ export const getAllPeople = () => {
             })
             .catch(err => console.log(err))
 };
-getAllPeople()
 
 export const getPersonById = (id) => {
     return fetch(`https://swapi.co/api/people/${id}/`)
